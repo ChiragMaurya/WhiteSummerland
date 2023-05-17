@@ -413,23 +413,24 @@ footer {
   }
 
   
-}
 
-/* Sticky Footer */
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
+  /* Sticky Footer */
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
 
-main {
-  flex: 1;
-}
+  main {
+    flex: 1;
+    padding-bottom: 60px; /* Adjust this value as needed to provide space for the footer */
+  }
 
-/* Footer */
-footer {
-  padding: 10px;
-  background-color: #333;
-  color: #fff;
-  text-align: center;
+  /* Footer */
+  footer {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
 }
