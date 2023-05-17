@@ -360,3 +360,61 @@ footer {
 }
 
 
+/* Mobile Styles */
+
+@media screen and (max-width: 768px) {
+  /* Header */
+  .logo {
+    width: 120px;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .header-items {
+    display: none;
+  }
+
+  .header-items.active {
+    display: block;
+  }
+
+  /* Home Section */
+  #home .heading {
+    text-align: center;
+  }
+
+  #home .heading h6 {
+    font-size: 14px;
+  }
+
+  #home .heading h1 {
+    font-size: 28px;
+  }
+
+  #home .heading h2 {
+    font-size: 20px;
+  }
+
+  /* Gallery Section */
+  #gallery .container {
+    padding: 20px;
+  }
+
+  #gallery .gallery-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* About Section */
+  #about .container {
+    padding: 20px;
+  }
+
+  
+  /* Footer */
+  footer {
+    padding: 10px;
+  }
+}
