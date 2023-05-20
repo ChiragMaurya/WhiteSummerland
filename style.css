@@ -211,6 +211,7 @@ header ul li {
 }
 
 #home .btn {
+  background-color: #ffffff;
   display: inline-block;
   margin-top: 1.5rem;
   padding: 10px 20px;
